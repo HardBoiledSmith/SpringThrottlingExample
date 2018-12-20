@@ -1,0 +1,2 @@
+java-1.8.0-openjdk-1.8.0.191.b12-0.42.amzn1
+tomcat8-8.5.32-1.78.amzn1
