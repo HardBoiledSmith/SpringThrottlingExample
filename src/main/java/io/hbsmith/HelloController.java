@@ -18,6 +18,8 @@ import java.time.Duration;
 @Controller
 public class HelloController {
 
+    // TOOD: Upgrade to redis version: https://github.com/mokies/ratelimitj/tree/master/ratelimitj-redis
+
     private final RequestRateLimiter rateLimiterJSP = new InMemorySlidingWindowRequestRateLimiter(
             RequestLimitRule.of(Duration.ofMinutes(1), 3));
 
