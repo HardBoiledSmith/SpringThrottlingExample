@@ -1,4 +1,4 @@
 .idea
-target/
 _provisioning/.vagrant/
-
+lib/
+target/
