@@ -109,7 +109,6 @@ def main():
 
     cmd_common = ['cp', '--backup']
     file_list = list()
-    file_list.append('/etc/tomcat8/web.xml')
     for ff in file_list:
         cmd = cmd_common + ['%s/configuration' % provisioning_path + ff, ff]
         _run(cmd)

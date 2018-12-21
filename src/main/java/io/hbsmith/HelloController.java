@@ -10,13 +10,13 @@ public class HelloController {
 
     @RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public String printHello(ModelMap model) {
-        model.addAttribute("message", "hello world 1111111");
+        model.addAttribute("message", "You are at root page");
         return "hello";
     }
 
     @RequestMapping(value = {"/home"}, method = RequestMethod.GET)
     public String printHello2(ModelMap model) {
-        model.addAttribute("message", "hello world 000000");
+        model.addAttribute("message", "You are at home page");
         return "hello";
     }
 }
