@@ -19,6 +19,6 @@ Example for rate limit throttling in Spring MVC
 1. after reboot, copy `SpringThrottlingExample.war` to `/home/ec2-user/`
 1. connect ssh `ssh root@[IP_ADDRESS]`
 1. `sudo su`
-1. `mv /home/ec2-user/ROOT.war /var/lib/tomcat8/webapps/`
+1. `mv /home/ec2-user/SpringThrottlingExample.war /var/lib/tomcat8/webapps/`
 1. `service tomcat8 restart`
 1. open `http://[IP_ADDRESS]:8080/SpringThrottlingExample`
